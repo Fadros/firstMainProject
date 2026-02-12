@@ -1,0 +1,36 @@
+
+
+header {
+    font-family: 'Roboto', sans-serif;
+    border: 2px blue;
+    display: flex;
+    background-color: #1f2937;
+}
+ 
+
+.hlogo {
+    border: 2px black;;
+    
+ }
+
+
+.hero {
+    display: flex;
+    border: 2px solid red;
+    background-color: #1f2937;
+
+}
+
+.hero-text {
+    border: 2px solid blue;
+    font-size: 48px #f9faf8
+    weight: 900px;
+}
+
+
+
+.hero-image {
+    border:2px solid green;
+    width: 300px;
+    height: 200px;
+}

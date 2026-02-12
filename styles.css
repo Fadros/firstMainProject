@@ -9,7 +9,9 @@ header {
  
 
 .hlogo {
-    border: 2px black;;
+    border: 2px black;
+    color: #f9faf8;
+    font-size: 18px;
     
  }
 

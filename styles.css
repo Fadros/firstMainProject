@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-  .hero {
+  * {
     flex-direction: column;
   }
 }
@@ -20,7 +20,19 @@ header {
     font-weight: 700;
     
  }
+
+ ul {        /* right top 3 link*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: #e5e7eb;
+    gap: 16px;
+    cursor: pointer;  
+}
 /* header only up here */
+
+
 /*------------------------*/
 .hero {
     background-color: #1f2937;
@@ -72,7 +84,7 @@ button {
 .hero-btn:hover {
   background-color: #2563eb;
 }
-/*------------ fin HERO-----------*/
+/*------------ fin HERO right-----------*/
 .hero-image img {
     width: 100%;
     height: auto;
@@ -84,14 +96,24 @@ button {
     width: 300px;
     height: 200px;
 }
+/*end of HERO section*/
 
-ul {        /* right top 3 link*/
-    list-style: none;
-    padding: 0;
-    margin: 0;
+/* start of 2nd part*/
+.boxes {
     display: flex;
-    color: #e5e7eb;
-    gap: 16px;
-    cursor: pointer;
-    
+    justify-content: center;]
+    gap: 20px 70px;
+    border: 2px solid black;
 }
+
+.boxesize {
+    width: 150px;
+    border: 2px solid black;
+}
+
+.boxesize img {
+    max-width: 100%;
+}
+
+
+

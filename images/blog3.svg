@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <!-- Background -->
+  <rect width="150" height="150" rx="8" fill="#0d1117"/>
+  <!-- Main branch line -->
+  <line x1="50" y1="20" x2="50" y2="130" stroke="#2ea043" stroke-width="3" stroke-linecap="round"/>
+  <!-- Feature branch -->
+  <path d="M50 55 Q85 55 85 80 L85 105" stroke="#58a6ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Merge back -->
+  <path d="M85 105 Q85 125 50 125" stroke="#58a6ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Commit dots - main branch -->
+  <circle cx="50" cy="30" r="7" fill="#0d1117" stroke="#2ea043" stroke-width="2.5"/>
+  <circle cx="50" cy="30" r="3" fill="#2ea043"/>
+  <circle cx="50" cy="55" r="7" fill="#0d1117" stroke="#2ea043" stroke-width="2.5"/>
+  <circle cx="50" cy="55" r="3" fill="#2ea043"/>
+  <circle cx="50" cy="125" r="7" fill="#0d1117" stroke="#2ea043" stroke-width="2.5"/>
+  <circle cx="50" cy="125" r="3" fill="#2ea043"/>
+  <!-- Commit dots - feature branch -->
+  <circle cx="85" cy="80" r="7" fill="#0d1117" stroke="#58a6ff" stroke-width="2.5"/>
+  <circle cx="85" cy="80" r="3" fill="#58a6ff"/>
+  <circle cx="85" cy="105" r="7" fill="#0d1117" stroke="#58a6ff" stroke-width="2.5"/>
+  <circle cx="85" cy="105" r="3" fill="#58a6ff"/>
+  <!-- Labels -->
+  <text x="65" y="34" font-family="monospace" font-size="8" fill="#8b949e">main</text>
+  <text x="96" y="83" font-family="monospace" font-size="8" fill="#8b949e">feat</text>
+  <!-- Title -->
+  <text x="75" y="148" font-family="monospace" font-size="8" fill="#30363d" text-anchor="middle">git branch</text>
+</svg>

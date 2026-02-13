@@ -43,11 +43,12 @@ header {
     flex-direction: column;
 }
 
-.herobig {
-    font-size: 48px;
+.herobig {      /*WELCOME*/
+    font-size: 44px;
     color: #f9faf8;
     font-weight: 900;
-    margin: 0;
+    margin: 0 auto;
+    
 }
 
 .herosmall {
@@ -84,12 +85,13 @@ button {
     height: 200px;
 }
 
-ul {
+ul {        /* right top 3 link*/
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     color: #e5e7eb;
     gap: 16px;
+    cursor: pointer;
     
 }

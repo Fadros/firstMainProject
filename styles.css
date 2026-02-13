@@ -92,7 +92,6 @@ button {
 
 
 .hero-image {
-    border:2px solid green;
     width: 300px;
     height: 200px;
 }
@@ -103,8 +102,7 @@ button {
 .box {
     display: flex;
     justify-content: center;
-    gap: 20px 70px;
-    
+    gap: 20px 70px;   
 }
 
 .boxsize {
@@ -130,4 +128,58 @@ button {
     font-weight: 900;
     padding: 10px;
  }
+/* end of middle section*/
 
+/* quote section*/
+.quotesection {
+    background-color: #e5e7eb;
+    padding: 40px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lowtext {
+    text-align: right;
+}
+
+/* CALL TO ACTION*/
+
+.cta {
+    margin: 60px 0;
+    background-color: #3882f6;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 1100px;
+
+}
+
+.cta-inner {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+}
+
+
+.signup {
+    padding: 10px 16px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-weight: 600;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ctauptext {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
